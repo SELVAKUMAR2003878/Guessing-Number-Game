@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-image: url(image/background2.png);
+    background-position: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+#head{
+    text-align: center;
+    height: auto;
+    width: 450px;
+    border:2px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(79, 205, 240);
+
+
+}
+
+h3{
+    color:white;
+    padding: 2px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+h1{
+    color:white;
+    background-color: rgb(255, 0, 166);
+    padding: 10px;
+}
+#child input{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.button{
+    font-size: 1.3em;
+    color:rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.button:hover{
+    color:  yellow;
+    background-color:rgb(0, 0, 0);
+}
+
+#child p{
+    font-size: 1.5em;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (max-width:650px) {
+    #head{
+        margin-top: 100px;
+    }
+} 
+    
+
+
